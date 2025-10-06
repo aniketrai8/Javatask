@@ -1,6 +1,6 @@
-package Utility;
+package utility;
 
-public final class Ops{
+public final class Operation{
 
     public static final double Pi=3.14;
 
@@ -27,7 +27,7 @@ public final class Ops{
         return Math.pow(2,power);
     }
 
-    private Ops(){
+    private Operation(){
         //not to be intailized
     }
 }
